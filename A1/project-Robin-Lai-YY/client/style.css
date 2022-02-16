@@ -1,0 +1,57 @@
+body{
+    width: 100%;
+}
+
+#app-view {
+    width: 80%;
+}
+
+@media screen and (max-width: 1024px) {
+    #app-view {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 768px) {
+    #app-view {
+        width: 100%;
+    }
+}  
+
+
+div.message{
+    background-color: blue;
+    color: greenyellow;
+}
+
+div.my-message{
+    background-color: cornsilk;
+    color: tomato;
+    margin-left: 30%;
+}
+
+
+#app-menu li{
+    background-color: blue;   
+}
+
+#app-menu li:hover {
+    background-color: cornflowerblue;
+ }
+
+#app-menu li a{
+    background-color: blue;   
+    color: whitesmoke;
+}
+#app-menu li:hover a{
+   background-color: cornflowerblue;
+   color: yellow;
+   
+}
+
+.room-list li{
+    background-color: whitesmoke;
+}
+
+.room-list li:hover{
+    background-color: turquoise;
+}
